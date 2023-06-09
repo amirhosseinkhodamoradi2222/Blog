@@ -169,8 +169,84 @@ export default function Home() {
           </div>
         </div>
         <div className="my-4">
-          <div className="grid grid-rows-1 grid-cols-3">
-            <div className="col-span-2"></div>
+          <div className="grid gap-8 grid-rows-1 grid-cols-3">
+            <div className="col-span-2">
+              <div className="bg-white rounded shadow-sm p-4">
+                <div className="flex">
+                  <div className="pl-2 rounded-full">
+                    <Image
+                      src={prof}
+                      width={40}
+                      height={40}
+                      className="rounded-full"
+                    />
+                  </div>
+                  <div className="col-span-2">
+                    <p className="text-slate-800 text-xs font-bold">
+                      Dast Andaz
+                    </p>
+                    <p className="text-slate-400 text-xs mt-2 font-bold">
+                      ۱۲ ماه پیش
+                    </p>
+                  </div>
+                </div>
+                <h2 className="font-bold text-xl my-3">نزدیک است ...</h2>
+                <Image src={baner2} className="w-full h-[280px] rounded-sm" />
+                <p className="font-bold text-gray-500 my-2">
+                  # نکته های عسلی با سورباز!{" "}
+                </p>
+              </div>
+              <div className="bg-white rounded shadow-sm p-4">
+                <div className="flex">
+                  <div className="pl-2 rounded-full">
+                    <Image
+                      src={prof}
+                      width={40}
+                      height={40}
+                      className="rounded-full"
+                    />
+                  </div>
+                  <div className="col-span-2">
+                    <p className="text-slate-800 text-xs font-bold">
+                      Dast Andaz
+                    </p>
+                    <p className="text-slate-400 text-xs mt-2 font-bold">
+                      ۱۲ ماه پیش
+                    </p>
+                  </div>
+                </div>
+                <h2 className="font-bold text-xl my-3">نزدیک است ...</h2>
+                <Image src={baner2} className="w-full h-[280px] rounded-sm" />
+                <p className="font-bold text-gray-500 my-2">
+                  # نکته های عسلی با سورباز!{" "}
+                </p>
+              </div>
+              <div className="bg-white rounded shadow-sm p-4">
+                <div className="flex">
+                  <div className="pl-2 rounded-full">
+                    <Image
+                      src={prof}
+                      width={40}
+                      height={40}
+                      className="rounded-full"
+                    />
+                  </div>
+                  <div className="col-span-2">
+                    <p className="text-slate-800 text-xs font-bold">
+                      Dast Andaz
+                    </p>
+                    <p className="text-slate-400 text-xs mt-2 font-bold">
+                      ۱۲ ماه پیش
+                    </p>
+                  </div>
+                </div>
+                <h2 className="font-bold text-xl my-3">نزدیک است ...</h2>
+                <Image src={baner2} className="w-full h-[280px] rounded-sm" />
+                <p className="font-bold text-gray-500 my-2">
+                  # نکته های عسلی با سورباز!{" "}
+                </p>
+              </div>
+            </div>
             <div className="col-span-1">
               <h2 className="font-bold">به ویرگول خوش آمدید</h2>
               <p className="text-right opacity-60 mt-2 text-sm">
@@ -180,6 +256,33 @@ export default function Home() {
               <button className="bg-cyan-600 hover:bg-cyan-700 font-bold w-40 text-white py-1 rounded-2xl mt-4">
                 میخواهم ثبت نام کنم
               </button>
+              <div className="mt-16 sticky top-4">
+                <h2 className="font-bold mb-4"> محبوب‌ترین‌های ویرگول</h2>
+                <div className="flex">
+                  <div className="pl-2 rounded-full">
+                    <Image
+                      src={prof}
+                      width={40}
+                      height={40}
+                      className="rounded-full"
+                    />
+                  </div>
+                  <div className="col-span-2">
+                    <p className="text-slate-800 text-sm font-bold">
+                      چرا همه‌ی ما به فلسفه نیاز داریم؟
+                    </p>
+                    <p className="text-slate-600 text-xs mt-1 font-bold">
+                      ایمان غواصیه
+                    </p>
+                  </div>
+                </div>
+                <div className="flex gap-4 mt-16 mb-4">
+                    <Link href={'/'} className="text-sm font-bold text-gray-500 hover:text-gray-800">قوانین</Link>
+                    <Link href={'/'} className="text-sm font-bold text-gray-500 hover:text-gray-800">حریم شخصی</Link>
+                    <Link href={'/'} className="text-sm font-bold text-gray-500 hover:text-gray-800">نقشه راه</Link>
+                    <Link href={'/'} className="text-sm font-bold text-gray-500 hover:text-gray-800">تماس با ما</Link>
+                </div>
+              </div>
             </div>
           </div>
         </div>
