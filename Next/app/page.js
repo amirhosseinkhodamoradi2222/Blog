@@ -9,6 +9,7 @@ import baner from "./images/baner1.webp";
 import baner2 from "./images/baner2.webp";
 import prof from "./images/pro.webp";
 import banerBlog from "./images/typewriter.png";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -141,10 +142,44 @@ export default function Home() {
         <div className="mt-14">
           <div className="bg-[#bfe8ff] rounded">
             <div className="grid grid-rows-1 grid-cols-3">
-              <div className="col-span-2"></div>
+              <div className="col-span-2">
+                <div className="mr-9 mt-20">
+                  <h2 className="font-bold text-2xl ">
+                    به ویرگول، دنیای کلمات خوش آمدید. 👋{" "}
+                  </h2>
+                  <p className="pl-8 mt-4">
+                    ویرگول بستری برای خواندن، گفتگو درباره‌ی موضوعات مورد علاقه
+                    و به اشتراک‌گذاری ایده‌های اصیل و عمیق در زندگی شخصی،
+                    حرفه‌ای و اجتماعی است
+                  </p>
+                  <div className="flex gap-3 mt-8">
+                    <button className="bg-cyan-600 hover:bg-cyan-700 font-bold w-40 text-white py-1 rounded">
+                      شروع به کار
+                    </button>
+                    <button className="border border-black font-bold w-40 opacity-50 hover:opacity-100 justify-self-start py-1 rounded">
+                      اطلاعات بیشتر
+                    </button>
+                  </div>
+                </div>
+              </div>
               <div className="col-span-1">
                 <Image src={banerBlog} className="h-72 rounded" />
               </div>
+            </div>
+          </div>
+        </div>
+        <div className="my-4">
+          <div className="grid grid-rows-1 grid-cols-3">
+            <div className="col-span-2"></div>
+            <div className="col-span-1">
+              <h2 className="font-bold">به ویرگول خوش آمدید</h2>
+              <p className="text-right opacity-60 mt-2 text-sm">
+                زمان آن رسیده که شیوه‌ی نوشتن و خواندن مطالبتان را تغییر دهید.
+                اگر برای آغاز دوران جدید آماده هستید به ویرگول خوش آمدید.
+              </p>
+              <button className="bg-cyan-600 hover:bg-cyan-700 font-bold w-40 text-white py-1 rounded-2xl mt-4">
+                میخواهم ثبت نام کنم
+              </button>
             </div>
           </div>
         </div>
